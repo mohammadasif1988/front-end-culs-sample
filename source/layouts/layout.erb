@@ -17,18 +17,22 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.1.min.js"></script>
     </head>
-    <body>
+    <body style="background-color:c2c2c2;">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
 
-        <header>
-          <h1>Our best project ever</h1>
+        <header style="width:100%;height:120px; background-color:blue;">
+          <center><h1 style="font-size:40px;">Our best project ever</h1></center>
         </header>
-        <main class='left'>
+        <main style="background-color:c2c2c2;">
           <%= yield %>
         </main>
-
+		<footer style="height:40px; background-color:blue; width:100%;">
+			<center>
+				&copy; Copyright ASIF Project, 2015 year.
+			</center>
+		</footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
